@@ -5,5 +5,5 @@ To contribute, please note the specific motherboard, the BMC firmware version nu
 
 Example
 ```
-# tcpdump -ni eth0 -s 0 host 1.1.1.1 -w X10DRW-E_1.81.pcap
+# tcpdump -ni eth0 -c 40 -s 0 host 1.1.1.1 -w X10DRW-E_1.81.pcap
 ```
